@@ -8,7 +8,7 @@ import java.util.List;
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 /*
-* Client Code for accessing the Lecture1_adt.TransactionInterface.java module
+* Client Code for accessing the Lecture1_adt.AssignmentOne.TransactionInterface.java module
  */
 public class Main {
 
@@ -17,8 +17,8 @@ public class Main {
         Lecture1_adt.Transaction1 t1 = new Lecture1_adt.Transaction1(1000, d1); // amount and d1 are arguments
 
         System.out.println(t1.toString());
-        System.out.println("Lecture1_adt.TransactionInterface Amount: \t " + t1.amount);
-        System.out.println("Lecture1_adt.TransactionInterface Date: \t " + t1.date);
+        System.out.println("Lecture1_adt.AssignmentOne.TransactionInterface Amount: \t " + t1.amount);
+        System.out.println("Lecture1_adt.AssignmentOne.TransactionInterface Date: \t " + t1.date);
 
         // Please note that the Client Codes can access the data in the class directly through the dot operator
         // This kind of exposure is a threat to both the Representation Independence and Preservation of Invariants
@@ -48,12 +48,12 @@ public class Main {
         Lecture1_adt.Transaction2 modified_t = makeNextPayment(t);
 
         System.out.println("\n\nState of the Object T1 After Client Code Tried to Change the Amount");
-        System.out.println("Lecture1_adt.TransactionInterface Amount: \t "+modified_t.getAmount());
-        System.out.println("Lecture1_adt.TransactionInterface Date: \t "+modified_t.getDate().getTime());
+        System.out.println("Lecture1_adt.AssignmentOne.TransactionInterface Amount: \t "+modified_t.getAmount());
+        System.out.println("Lecture1_adt.AssignmentOne.TransactionInterface Date: \t "+modified_t.getDate().getTime());
 
         System.out.println("\n\nHow does T2 Look Like?????");
-        System.out.println("Lecture1_adt.TransactionInterface Amount: \t "+modified_t.getAmount());
-        System.out.println("Lecture1_adt.TransactionInterface Date: \t "+modified_t.getDate().getTime());
+        System.out.println("Lecture1_adt.AssignmentOne.TransactionInterface Amount: \t "+modified_t.getAmount());
+        System.out.println("Lecture1_adt.AssignmentOne.TransactionInterface Date: \t "+modified_t.getDate().getTime());
 
         /* Please note that Although we have solved the problem of Transaction1
         * And client code can no longer use the dot (.) operator to directly access the data
@@ -91,8 +91,8 @@ public class Main {
             // Display all the 12 Transactions
             for (Transaction3 transact : allPaymentsIn2024) {
                 System.out.println("\n\n  ::::::::::::::::::::::::::::::::::::::::::::\n");
-                System.out.println("Lecture1_adt.TransactionInterface Amount: \t "+transact.getAmount());
-                System.out.println("Lecture1_adt.TransactionInterface Date: \t "+transact.getDate().getTime());
+                System.out.println("Lecture1_adt.AssignmentOne.TransactionInterface Amount: \t "+transact.getAmount());
+                System.out.println("Lecture1_adt.AssignmentOne.TransactionInterface Date: \t "+transact.getDate().getTime());
             }
         }
 
@@ -136,8 +136,8 @@ public class Main {
         // Display all the 12 Transactions
         for (Transaction4 transact : transactionsIn2024) {
             System.out.println("\n\n  ::::::::::::::::::::::::::::::::::::::::::::\n");
-            System.out.println("Lecture1_adt.TransactionInterface Amount: \t "+transact.getAmount());
-            System.out.println("Lecture1_adt.TransactionInterface Date: \t "+transact.getDate().getTime());
+            System.out.println("Lecture1_adt.AssignmentOne.TransactionInterface Amount: \t "+transact.getAmount());
+            System.out.println("Lecture1_adt.AssignmentOne.TransactionInterface Date: \t "+transact.getDate().getTime());
         }
 
         // Please Take a look at all the 12 transaction now and compare with the outputs of the Transaction3 class

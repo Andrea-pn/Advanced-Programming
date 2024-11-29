@@ -10,7 +10,7 @@ public abstract class BaseTransaction implements TransactionInterface {
     private final String transactionID;
 
     /**
-     * Lecture1_adt.TransactionInterface Constructor
+     * Lecture1_adt.AssignmentOne.TransactionInterface Constructor
      * @param amount in an integer
      * @param date: Not null, and must be a Calendar object
      * @return void

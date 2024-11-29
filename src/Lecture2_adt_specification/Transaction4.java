@@ -15,7 +15,7 @@ public class Transaction4 {
     private final Calendar date;
 
     /**
-     * Lecture1_adt.TransactionInterface Constructor
+     * Lecture1_adt.AssignmentOne.TransactionInterface Constructor
      * @param amount in an integer
      * @param date: Not null, and must be a Calendar object
      * @return void

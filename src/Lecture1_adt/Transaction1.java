@@ -3,7 +3,7 @@ package Lecture1_adt;
 import java.util.Calendar;
 
 /**
- * This Lecture1_adt.TransactionInterface Class violates several ADT design principles:
+ * This Lecture1_adt.AssignmentOne.TransactionInterface Class violates several ADT design principles:
  * 1. Representation Independence: --- Changes in representation of the data may require external code to alter access
  * 2. Preservation of Invariants: --- Any external client code can alter the internal values
  */
